@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="BorderTaskMobileStuff.Views.MainView"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+	<StackLayout>
+		<Label FontSize="Title" Text="{Binding HelloWorld}" />
+		<Button Text="{Binding DeviceInfoButton}" />
+		<Button Text="{Binding VHVEButton}" />
+	</StackLayout>
+
+</ContentPage>
